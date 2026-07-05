@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chekpoint_HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!--implementation de la barre de navigation-->
 
-  <header>
+  <header> 
     <h1>Princesse Asmao Diallo</h1>
 
     <ul>
-    <li>Accueil</li>
-    <li>à propos</li>
-    <li>Expérience profesionnelle</li>
-    <li>CV</li>
-    <li>Contact</li>
+    <li><a href="#accueil">Accueil</a></li>
+    <li><a href="#experience">Expérience professionnelle</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#contact">Contact</a></li>
     </ul>
   </header>
 
     <!--implementation de la section Accueille-->
-    <section> 
+    <section id="accueil"></section>> 
         <h2>Bienvenue dans mon espace</h2>
         <img src="assets/profil.jpg" alt="">
         <h1>Boujour,je suis développeur web passoinné par HTML,CSS,JavaScript</h1>
@@ -30,7 +30,7 @@
 
     <!--implementation de la section à propos-->
 
-    <section>
+    <section  id="cv">
         <h2>A-propos</h2>
         <p>Je développe des applications web moderne et j'aime apprendre les nouvelles technologie.</p>
         <h3>Mes Compétences</h3>
@@ -42,7 +42,8 @@
         </ul>
     </section>
     <!--implementation de l'experience professionnel-->
-
+<section id="experience">
+    
     <table border="1">
         <tr>
                         <th>Année</th>
@@ -67,11 +68,12 @@
 
 </tr>
  </table>
+</section>
 <!--implementation partie cv-->
 <p>Telecharger mon cv</p>
 <a href="Asmao DIALLO -Introduction to Microsoft Office Certificate of Completion.pdf">cliquer pour télécharge</a>
 <!--implementation contact-->
-<section>
+<section id="contact">
     <h2>Contactez-moi</h2>
     <form action="">
     <label for="">prénom et nom</label><br>
@@ -84,4 +86,4 @@
 
 </section>
 </body>
-</html
+</html>

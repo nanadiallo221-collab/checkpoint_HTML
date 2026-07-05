@@ -1,0 +1,179 @@
+
+* ===== RESET DE BASE ===== */
+
+/* Supprime les marges et paddings par défaut du navigateur pour uniformiser l'affichage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur/hauteur totale d'un élément */
+}
+
+/* ===== STYLE DU CORPS ===== */
+
+body {
+    font-family: Arial, sans-serif; /* Définit la police de caractères principale et une police de secours */
+    background-color:#be9fdb; /* Couleur de fond légère pour adoucir le rendu */
+    color: hwb(0 15% 77%); /* Couleur du texte principale, plus douce que le noir pur */
+    line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
+    padding: 30px; /* Espacement intérieur autour du contenu */
+}
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #fec3ff; /* Couleur de fond sombre pour le header */
+    color: hsl(0, 73%, 35%); /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 30px; /* Espacement intérieur pour aérer le contenu du header */
+    text-align: center; /* Centre le texte horizontalement */
+    border-radius: 8px; /* Arrondit les coins du header */
+    margin-bottom: 30px; /* Espacement extérieur en bas pour séparer du reste */
+}
+/* ===== RESET DE BASE ===== */
+
+/* Supprime les marges et paddings par défaut du navigateur pour uniformiser l'affichage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur/hauteur totale d'un élément */
+}
+
+/* ===== STYLE DU CORPS ===== */
+
+body {
+    font-family: Arial, sans-serif; /* Définit la police de caractères principale et une police de secours */
+    background-color: #f4f4f4; /* Couleur de fond légère pour adoucir le rendu */
+    color: #333; /* Couleur du texte principale, plus douce que le noir pur */
+    line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
+    padding: 20px; /* Espacement intérieur autour du contenu */
+}
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #470f3b; /* Couleur de fond sombre pour le header */
+    color: white; /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 20px; /* Espacement intérieur pour aérer le contenu du header */
+    text-align: center; /* Centre le texte horizontalement */
+    border-radius: 8px; /* Arrondit les coins du header */
+    margin-bottom: 30px; /* Espacement extérieur en bas pour séparer du reste */
+}
+
+/* Supprime les puces de la liste de navigation */
+header ul {
+    list-style: none; /* Supprime les puces par défaut des éléments <li> */
+}
+
+/* Affiche les éléments de navigation en ligne côte à côte */
+header ul li {
+    display: inline; /* Passe les <li> en affichage inline pour les aligner horizontalement */
+    margin: 0 15px; /* Espacement horizontal entre chaque élément de navigation */
+}
+
+header ul li a {
+    color: white; /* Couleur du lien en blanc */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+    background-color: white; /* Fond blanc pour chaque section */
+    padding: 20px; /* Espacement intérieur des sections */
+    margin-bottom: 20px; /* Espacement extérieur en bas entre les sections */
+    border-radius: 8px; /* Coins arrondis pour un aspect plus moderne */
+}
+
+h2 {
+    color: #2c3e50; /* Couleur des titres h2 assortie au header */
+    margin-bottom: 15px; /* Espacement sous le titre */
+    border-bottom: 2px solid #3498db; /* Ligne décorative sous le titre pour le mettre en valeur */
+    padding-bottom: 10px; /* Espacement entre le texte et la bordure */
+}
+
+h3 {
+    color: #3498db; /* Couleur bleue pour les sous-titres */
+    margin-bottom: 10px;
+}
+
+/* ===== IMAGE DE PROFIL ===== */
+
+img {
+    max-width: 150px; /* Limite la largeur maximale de l'image pour éviter qu'elle ne soit trop grande */
+    border-radius: 50%; /* Rend l'image ronde (cercle) */
+    display: block; /* Passe l'élément en bloc pour pouvoir appliquer les marges automatiques */
+    margin: 10px auto; /* Centre horizontalement l'image (auto à gauche et à droite) */
+}
+
+/* ===== TABLEAU ===== */
+
+table {
+    width: 100%; /* Le tableau occupe toute la largeur de son conteneur */
+    border-collapse: collapse; /* Fusionne les bordures doubles en une seule */
+    margin: 20px 0; /* Espacement vertical autour du tableau */
+}
+
+th, td {
+    padding: 10px; /* Espacement intérieur dans les cellules */
+    text-align: left; /* Aligne le texte à gauche dans les cellules */
+    border: 1px solid #ddd; /* Bordure fine et discrète autour des cellules */
+}
+
+th {
+    background-color: #3498db; /* Fond bleu pour les en-têtes de colonnes */
+    color: white; /* Texte blanc pour les en-têtes */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fond alterné (pair) pour améliorer la lisibilité des lignes */
+}
+
+/* ===== LIEN CV ===== */
+
+a {
+    color: #ebebeb; /* Couleur bleue pour les liens */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol pour indiquer qu'il est cliquable */
+}
+
+/* ===== FORMULAIRE ===== */
+
+label {
+    font-weight: bold; /* Met le texte des labels en gras */
+    display: block; /* Affiche le label en bloc pour qu'il soit seul sur sa ligne */
+    margin-top: 10px; /* Espacement au-dessus du label */
+}
+
+input, textarea {
+    width: 100%; /* Les champs prennent toute la largeur du conteneur */
+    padding: 10px; /* Espacement intérieur pour un meilleur confort de saisie */
+    margin: 5px 0 15px 0; /* Espacement extérieur : 5px en haut, 15px en bas */
+    border: 1px solid #cf82b4; /* Bordure grise discrète */
+    border-radius: 4px; /* Coins légèrement arrondis */
+    font-size: 16px; /* Taille de police confortable pour la saisie */
+}
+
+button {
+    background-color: hwb(353 20% 57%); /* Fond bleu pour le bouton */
+    color: white; /* Texte blanc */
+    padding: 10px 20px; /* Espacement intérieur : 10px vertical, 20px horizontal */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main pour indiquer que c'est cliquable */
+    font-size: 16px; /* Taille du texte dans le bouton */
+}
+
+button:hover {
+    background-color: hsl(285, 64%, 44%); /* Teinte plus foncée au survol pour un retour visuel */
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center; /* Centre le texte du footer */
+    margin-top: 30px; /* Espacement au-dessus du footer */
+    color: #777; /* Couleur grise plus discrète pour le footer */
+    font-size: 14px; /* Police plus petite pour le pied de page */
+}
